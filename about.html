@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/c12e6eacc1.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -40,16 +44,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html" tilte="Homepage"
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="index.html"
+                tilte="Homepage"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                href="about.html"
-                title="About Nika N"
+              <a class="nav-link active" href="about.html" title="About Nika N"
                 >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="works.html" title="Nika's Works"
+                >My works</a
               >
             </li>
             <li class="nav-item">
@@ -65,43 +75,63 @@
       </div>
     </nav>
     <h1 class="text-center">About me</h1>
-    <h3 class="text-center">Front-end developer from Kyiv, Ukraine</h3>
-    <div class="about-paragraphs text-center">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
-    </div>
+    <h3 class="text-center">Hi! Nice to meet you!</h3>
     <div class="container">
       <div class="row">
-        <div class="col-sm-4">
-          <img
-            src="images/yoga.png"
-            class="img-fluid p-2 mb-4 shadow rounded"
-            alt="Yoga project"
-          />
+        <div class="col-sm-6 about-paragraphs text-center">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+            aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
+            qui alias veniam excepturi rem dolor fugit dignissimos, sed
+            voluptatum blanditiis harum.
+          </p>
         </div>
-        <div class="col-sm-4">
-          <img
-            src="images/weather.png"
-            class="img-fluid p-2 mb-4 shadow rounded"
-            alt="Weather project"
-          />
-        </div>
-        <div class="col-sm-4">
-          <img
-            src="images/yogurt.png"
-            class="img-fluid p-2 mb-4 shadow rounded"
-            alt="Yogurt project"
-          />
+        <div class="col-sm-6 about-paragraphs text-center">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+            aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
+            qui alias veniam excepturi rem dolor fugit dignissimos, sed
+            voluptatum blanditiis harum.
+          </p>
         </div>
       </div>
     </div>
-    <div id="contact" class="mt-5">
-      <h2 class="text-center">📮 Contact me</h2>
-      <a href="mailto:nika377344@gmail.com" class="email-link"> nika377344@gmail.com </a>
-    </div>
+    <ul class="works">
+      <li>
+        <h3 class="text-center">You can see my works here</h3>
+      </li>
+      <li class="text-center">
+        <a href="works.html" class="work-link text-center" title="Works"
+          >My works</a
+        >
+      </li>
+    </ul>
+    <footer>
+      <hr />
+
+      <div id="contact" class="mt-5">
+        <h2 class="text-center">📮 Contact me</h2>
+        <div class="allicons d-flex justify-content-center">
+          <div>
+            <a href="#">
+              <i class="fa-brands fa-instagram instaicon"></i>
+            </a>
+          </div>
+          <div>
+            <a href="mailto:nika377344@gmail.com">
+              <i class="fa-regular fa-envelope emailicon"> </i>
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <i class="fa-brands fa-linkedin linkicon"></i>
+            </a>
+          </div>
+          <a href="#">
+            <i class="fa-brands fa-github giticon"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

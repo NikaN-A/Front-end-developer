@@ -16,10 +16,12 @@ h3 {
 
 h1 {
   font-size: 96px;
+  font-family: "Playfair Display", serif;
 }
 
 h2 {
   font-size: 48px;
+  font-family: "Playfair Display", serif;
 }
 
 h3 {
@@ -51,7 +53,19 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
-
+.work-link {
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 4px;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  text-decoration: none;
+  padding: 20px 15px;
+}
+.works {
+  list-style: none;
+}
 .primary-link:hover {
   color: white;
 }
@@ -65,12 +79,6 @@ p {
   border: 1px solid var(--primary-color);
 }
 
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
 .about-paragraphs {
   margin: 30px 0;
 }
@@ -79,16 +87,12 @@ p {
   margin: 10px;
 }
 
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
+.instaicon,
+.emailicon,
+.linkicon,
+.giticon {
+  font-size: 40px;
+  padding: 15px;
 }
 
 @media (max-width: 576px) {

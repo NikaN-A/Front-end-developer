@@ -107,19 +107,19 @@ p {
   margin: 10px;
 }
 
-.instaicon,
-.emailicon,
-.linkicon,
-.giticon {
-  margin: 0 10px;
-  font-size: 30px;
-  background-color: var(--secondary-color);
-  transition: all 100ms ease-in-out;
-  border-radius: 50%;
-  padding: 15px;
-  color: #6c63ff;
-}
+footer .allicons a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
 
+  border-radius: 50%;
+  font-size: 18px;
+}
+footer .allicons a:hover {
+  color: #f5f2fe;
+  background-color: #6c63ff;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -128,6 +128,7 @@ p {
 .midnight {
   padding-top: 30px;
 }
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;

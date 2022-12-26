@@ -73,6 +73,9 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.primary-link:hover {
+  color: white;
+}
 .work-link {
   display: inline-block;
   margin-top: 20px;
@@ -85,9 +88,12 @@ p {
 }
 .works {
   list-style: none;
+  padding: 12px 25px 0 0;
 }
-.primary-link:hover {
-  color: white;
+.works a:hover {
+  background: #f5f2fe;
+  color: #6c63ff;
+  border: 2px solid var(--primary-color);
 }
 
 .secondary-link {
@@ -106,7 +112,10 @@ p {
 .about-paragraphs p {
   margin: 10px;
 }
-
+footer .allicons {
+  padding-top: 25px;
+  margin-bottom: 20px;
+}
 footer .allicons a {
   margin: 0 20px;
   color: var(--primary-color);
@@ -123,10 +132,14 @@ footer .allicons a:hover {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 80px 20px 20px;
+  padding: 60px 20px 20px;
 }
 .midnight {
   padding-top: 30px;
+}
+
+footer .contact {
+  margin-top: 20px;
 }
 
 @media (max-width: 576px) {
@@ -148,5 +161,14 @@ footer .allicons a:hover {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+  nav a {
+    font-size: 16px;
+  }
+  nav li {
+    margin-left: 6px;
+  }
+  .works {
+    padding: 0px;
   }
 }
